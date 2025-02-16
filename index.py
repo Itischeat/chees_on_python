@@ -6,6 +6,12 @@ class ChessGame:
     def __init__(self, root):
         self.root = root
         self.root.title("Шахматы")
+
+        try:
+            self.root.iconbitmap("./favicon.ico")
+        except tk.TclError:
+            print("Файл логотипа не найден.")
+
         self.root.configure(bg="#F0F0F0")
         self.was_resetting = False
 
