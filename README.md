@@ -13,7 +13,7 @@ pip install pillow
 pip install -r requirements.txt --no-index --find-links file:///tmp/packages
 ```
 
-## Run project
+## 2. Run project
 
 ```
 py index.py
